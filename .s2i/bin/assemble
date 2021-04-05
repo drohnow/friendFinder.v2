@@ -12,6 +12,7 @@ set -e
 
 echo "---> Installing application source"
 cp -Rf /tmp/src/* /tmp
+cp package.json /opt/app-root/src/
 
 DATE=`date "+%b %d, %Y @ %H:%M %p"`
 
