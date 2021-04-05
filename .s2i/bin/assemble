@@ -2,11 +2,11 @@
 
 set -e
 
-source ${HTTPD_CONTAINER_SCRIPTS_PATH}/common.sh
+#source ${HTTPD_CONTAINER_SCRIPTS_PATH}/common.sh
 
-echo "---> Enabling s2i support in httpd24 image"
+#echo "---> Enabling s2i support in httpd24 image"
 
-config_s2i
+#config_s2i
 
 ######## CUSTOMIZATION STARTS HERE ############
 
